@@ -3,41 +3,41 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 body{
-  background-image:url(background.jpg);
+  background-image:url("images/background.jpg");
   background-size: cover;
   background-position: center;
- 
 }
-
-
 
 .nav{
   background: rgb(2, 92, 2);
   text-align: center;
-
 }
 
 .nav ul{
-  
   display: inline-flex;
   list-style: none;
   color: #fff;
-  
 }
+
 .nav ul li{
   width: 160px;
   margin: 15px;
   padding: 15px;
 }
+
 .nav ul li a{
   text-decoration: none;
   color: white;
 }
+
 .active, .nav ul li:hover{
   background: #2bab0d;
   border-radius: 6px;
+
 }
+
 .nav .fa{
   margin-right: 8px;
 }
@@ -50,14 +50,14 @@ body{
   position: relative;
   top: 0px;
   right: 0px;
-
-  
 }
+
 .nav .form{
   position: absolute;
   top: 55px;
   right: 50px;
 }
+
 .nav .search {
   background-color: rgb(227, 231, 231);
   width: 40px;
