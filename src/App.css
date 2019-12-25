@@ -1,69 +1,26 @@
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+body{
+  background: linear-gradient(rgba(0, 0, 0, 0.7),
+   rgba(0, 0, 0, 0.7)), url("images/background.jpg") no-repeat center fixed;
+  background-size: 100%;
 }
 
-body{
-  background-image:url("images/background.jpg");
-  background-size: cover;
-  background-position: center;
+#title{
+  color: green;
 }
 
 .nav{
-  background: rgb(2, 92, 2);
-  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
-.nav ul{
-  display: inline-flex;
-  list-style: none;
-  color: #fff;
+.form-search{
+  margin-right: 15%;
 }
 
-.nav ul li{
-  width: 160px;
-  margin: 15px;
-  padding: 15px;
+.item-row{
+  margin: 5px;
 }
 
-.nav ul li a{
-  text-decoration: none;
-  color: white;
-}
-
-.active, .nav ul li:hover{
-  background: #2bab0d;
-  border-radius: 6px;
-
-}
-
-.nav .fa{
-  margin-right: 8px;
-}
-
-.nav .logo{
-  background-color: teal;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  position: relative;
-  top: 0px;
-  right: 0px;
-}
-
-.nav .form{
-  position: absolute;
-  top: 55px;
-  right: 50px;
-}
-
-.nav .search {
-  background-color: rgb(227, 231, 231);
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  position: absolute;
-  top: 50px;
-  right: 00px;
+.card-box{
+  margin: 5px;
 }
