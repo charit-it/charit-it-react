@@ -14,13 +14,13 @@ class App extends React.Component {
           <div className="collapse navbar-collapse" id="navbarTog">
             <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
               <li className="nav-item">
-                <a className="nav-link nav" href="."> Eletronics</a>
+                <a className="nav-link nav" href="."> Electronics</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link nav" href="."> Children</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link nav" href="."> Male</a>
+                <a className="nav-link nav" href="."> Men</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link nav" href="."> Women</a>
