@@ -3,16 +3,17 @@ import React from "react";
 class Items extends React.Component{
   render() {
     return (
-        <div className="card col-md-2 card-box">
-          <img src="images/clothe.jpg" className="card-img-top" alt="..." />
-          <div className="card-body">
-            <h5 className="card-title">Clothe X</h5>
+      <div className="card card-box">
+        <img src={this.props.itemUrl} className="card-img-top img-he" alt="..." />
+        <div className="card-body">
+           <h5 className="card-title">{this.props.itemName}</h5>
             <p className="card-text">
-              This is a wider card with supporting text below.
+              {this.props.itemDesc}<br />
+              <b>Price:</b> £{this.props.itemPri}
             </p>
-            <button type="button" className="btn btn-success">See more</button>
-          </div>
-        </div>
+            <button type="button" className="btn btn-success">Shop Info</button>
+        </div>    
+      </div>
     );
   }
 }
