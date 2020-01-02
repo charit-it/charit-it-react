@@ -5,7 +5,7 @@ import Popup from 'reactjs-popup';
 class Login extends React.Component{
   render() {
     return (
-      <Popup trigger={<RB.Button variant="outline-success"> Login </RB.Button>} modal closeOnDocumentClick >
+      <Popup trigger={<RB.Button variant="outline-success"> Shop owner space </RB.Button>} modal closeOnDocumentClick >
         <div className="row row-login">
         <div className="col-md-6">
           <h5>Sign Up</h5>
@@ -35,7 +35,7 @@ class Login extends React.Component{
             <input type="checkbox" className="form-check-input" id="exampleCheck1" />
             <label className="form-check-label" for="exampleCheck1">I confirm that the information given in this form is true, complete and accurate.</label>
           </div>
-          <button type="submit" className="btn btn-primary">Register</button>
+          <button type="submit" className="btn btn-primary">Sign Up</button>
         </form>
         </div>
         <div classNameName="col-md-6">
@@ -49,7 +49,7 @@ class Login extends React.Component{
             <label for="exampleInputPassword1">Password</label>
             <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password" />
           </div>
-          <button type="submit" className="btn btn-primary">Login</button>
+          <button type="submit" className="btn btn-primary">Sign In</button>
         </form>
         </div>
         </div>

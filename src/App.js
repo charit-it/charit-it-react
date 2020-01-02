@@ -68,12 +68,12 @@ class App extends React.Component {
           <RB.Navbar.Collapse id="basic-navbar-nav">
             <RB.Nav className="mr-auto">
               <RB.Nav.Link href="index.html">Home</RB.Nav.Link>
-              <RB.NavDropdown title="Clothes / Shoes" id="basic-nav-dropdown">
+              <RB.NavDropdown title="Clothing and Accessories" id="basic-nav-dropdown">
                 <RB.NavDropdown.Item href="#children">Children</RB.NavDropdown.Item>
                 <RB.NavDropdown.Item href="#men">Men</RB.NavDropdown.Item>
                 <RB.NavDropdown.Item href="#women">Women</RB.NavDropdown.Item>
               </RB.NavDropdown>
-              <RB.Nav.Link href="#electronics">Electronics</RB.Nav.Link>
+              <RB.Nav.Link href="#electronics">Tech and Home</RB.Nav.Link>
               <RB.Nav.Link href="#login">About us</RB.Nav.Link>
               <Login />
             </RB.Nav>
@@ -85,7 +85,7 @@ class App extends React.Component {
         </RB.Navbar>
         <div className ="container">
           <div>
-            <h2 className="title-row">Clothes / Shoes</h2>
+            <h2 className="title-row">Clothing and Accessories</h2>
             <h4 className="title-row title-sub" id="children">Children</h4>
             <div className ="cards-row">
                 {children.map(itemC => {
