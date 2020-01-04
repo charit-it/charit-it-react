@@ -47,6 +47,19 @@ body{
   width: 100%;
 }
 
+.img-inf{
+  height: 250px;
+  width: 200px;
+}
+
 .row-login{
   margin: 2px;
+}
+
+.title-info{
+  text-align: center;
+}
+
+.div-info{
+  text-align: center;
 }
