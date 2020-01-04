@@ -1,8 +1,6 @@
 import React from "react";
 import * as RB from 'react-bootstrap';
 import Popup from 'reactjs-popup';
-import User from "./User";
-import { Route, Link, BrowserRouter as Router } from 'react-router-dom';;
 
 class Login extends React.Component {
     render() {
@@ -52,13 +50,8 @@ class Login extends React.Component {
                 <input type="password" className="form-control" placeholder="Password" />
               </div>
               <div>
-              <Router>
-                <div>
-                  <Link to="/user" className="btn btn-primary">Sign In</Link>
-                  <Route path="/user" component={User} />
-                </div>
-              </Router>
               </div>
+              <a style={{display: "table-cell"}} href="/User" target="_blank" className="btn btn-primary">Sign In</a>
             </form>
           </div>
         </div>

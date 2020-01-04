@@ -63,3 +63,23 @@ body{
 .div-info{
   text-align: center;
 }
+
+.form-user{
+  background-color: white;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.btn-form{
+  margin: 10px;
+}
+
+.container-user{
+  padding-top: 60px;
+}
+
+.row-user{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
