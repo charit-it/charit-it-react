@@ -10,6 +10,11 @@ body{
   color: #098b09;
 }
 
+#about_us{
+  overflow-y:auto;
+  max-height:90%;
+}
+
 .cards-row{
   margin: 5px; 
   display: flex;
