@@ -88,3 +88,9 @@ body{
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.popup{
+  max-height: 100vh;
+  overflow-y: auto;
+  text-align: justify;
+}

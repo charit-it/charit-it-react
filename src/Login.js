@@ -6,7 +6,7 @@ class Login extends React.Component {
     render() {
     return (
       <Popup trigger={<RB.Button variant="outline-success"> Shop owner space </RB.Button>} modal closeOnDocumentClick >
-        <div className="row row-login">
+        <div className="row row-login popup">
           <div className="col-md-6">
             <h5>Sign Up</h5>
             <form>

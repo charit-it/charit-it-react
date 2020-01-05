@@ -10,7 +10,7 @@ class User extends React.Component {
       <div>
         <header>
           <RB.Navbar fixed="top" bg="white" expand="lg">
-            <RB.Navbar.Brand href="/">
+            <RB.Navbar.Brand href="/"  onClick={() => window.close()}>
               <img alt="" src={Logo} width="30" height="30" className="d-inline-block align-top" />
               {' '}
               <b>Charit-</b><b id="title">It</b>
@@ -18,7 +18,7 @@ class User extends React.Component {
             <RB.Navbar.Toggle aria-controls="basic-navbar-nav" />
             <RB.Navbar.Collapse id="basic-navbar-nav">
               <RB.Nav className="mr-auto">
-                <RB.Nav.Link href="/">Home / Logout</RB.Nav.Link>
+                <RB.Nav.Link href="/"  onClick={() => window.close()}>Home / Logout</RB.Nav.Link>
               </RB.Nav>
             </RB.Navbar.Collapse>
           </RB.Navbar>
