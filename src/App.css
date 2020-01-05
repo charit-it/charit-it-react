@@ -10,11 +10,6 @@ body{
   color: #098b09;
 }
 
-#about_us{
-  overflow-y:auto;
-  max-height:90%;
-}
-
 .cards-row{
   margin: 5px; 
   display: flex;
@@ -69,10 +64,17 @@ body{
   text-align: center;
 }
 
-.form-user{
-  background-color: white;
+.div-user-row{
+  background: white;
   border-radius: 5px;
+}
+
+.form-user{
   margin: 5px;
+}
+
+.label-user-title{
+  text-align: center;
 }
 
 .btn-form{
@@ -93,4 +95,16 @@ body{
   max-height: 100vh;
   overflow-y: auto;
   text-align: justify;
+}
+
+.card-user{
+  margin: 5px;
+}
+
+.card-user-align{
+  margin: 5px;
+}
+
+.btn-del{
+  text-align: right;
 }

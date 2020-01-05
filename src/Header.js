@@ -2,7 +2,7 @@ import React from "react";
 import * as RB from 'react-bootstrap';
 import Logo from "./images/logo.png";
 import Login from "./Login";
-import About_us from "./About_us";
+import AboutUs from "./About_us";
 
 class Header extends React.Component {
   render() {
@@ -24,7 +24,7 @@ class Header extends React.Component {
                 <RB.NavDropdown.Item href="#women">Women</RB.NavDropdown.Item>
               </RB.NavDropdown>
               <RB.Nav.Link href="#electronics">Tech and Home</RB.Nav.Link>
-              <About_us />
+              <AboutUs />
               <Login />
             </RB.Nav>
             <RB.Form inline>

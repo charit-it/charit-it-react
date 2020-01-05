@@ -5,7 +5,7 @@ import Popup from 'reactjs-popup';
 class About_us extends React.Component {
   render() {
     return (
-      <Popup trigger={<RB.Nav.Link href="#about_us">About us</RB.Nav.Link>} modal closeOnDocumentClick >
+      <Popup trigger={<RB.Nav.Link>About us</RB.Nav.Link>} modal closeOnDocumentClick >
         <div className="row popup">
           <div className="col-md-12">
             <h4>About Charit-it</h4>
