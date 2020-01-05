@@ -70,7 +70,7 @@ body{
 }
 
 .form-user{
-  margin: 5px;
+  margin: 15px;
 }
 
 .label-user-title{
@@ -106,5 +106,7 @@ body{
 }
 
 .btn-del{
-  text-align: right;
+  position: absolute;
+  bottom: 10px;
+  right: 0;
 }

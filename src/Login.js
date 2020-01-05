@@ -5,7 +5,7 @@ import Popup from 'reactjs-popup';
 class Login extends React.Component {
     render() {
     return (
-      <Popup trigger={<RB.Button variant="outline-success"> Volunteer space </RB.Button>} modal closeOnDocumentClick >
+      <Popup trigger={<RB.Button variant="outline-success">Volunteer Space</RB.Button>} modal closeOnDocumentClick >
         <div className="row row-login popup">
           <div className="col-md-6">
             <h5>Sign up</h5>
