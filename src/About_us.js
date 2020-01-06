@@ -9,8 +9,8 @@ class About_us extends React.Component {
         <div className="row popup">
           <div className="col-md-12">
             <h4>About Charit-it</h4>
-            <p>Charit-it is an app developed by Caio, Kate and Peace, three <a href="https://www.techreturners.com/">Tech Returners</a> graduates.</p>
-            <p>We have backgrounds in fashion, forest engineering and marketing, and we felt that we could do something to make buying second-hand clothes easier and fun.</p>
+            <p>Charit-it is an app developed by <a href="https://www.linkedin.com/in/caio-fernando-pereira/">Caio</a>, <a href="https://www.linkedin.com/in/katerine-santo/">Kate</a> and <a href="https://www.linkedin.com/in/peace-oni-41306ab2/">Peace</a>, three <a href="https://www.techreturners.com/">Tech Returners</a> graduates.</p>
+            <p>We have backgrounds in forest engineering, marketing and fashion and we felt that we could do something to make buying second-hand clothes easier and fun.</p>
             <h5>Why embrace second-hand?</h5>
             <p>There are plenty of reasons, but here are just our favourite 3:</p>
             <ol>
