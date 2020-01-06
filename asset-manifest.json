@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/charit-it-react/static/css/main.8e44f2d4.chunk.css",
-    "main.js": "/charit-it-react/static/js/main.9782ffb8.chunk.js",
-    "main.js.map": "/charit-it-react/static/js/main.9782ffb8.chunk.js.map",
+    "main.js": "/charit-it-react/static/js/main.561e3a77.chunk.js",
+    "main.js.map": "/charit-it-react/static/js/main.561e3a77.chunk.js.map",
     "runtime-main.js": "/charit-it-react/static/js/runtime-main.2fea1fa9.js",
     "runtime-main.js.map": "/charit-it-react/static/js/runtime-main.2fea1fa9.js.map",
     "static/js/2.75d9e9ea.chunk.js": "/charit-it-react/static/js/2.75d9e9ea.chunk.js",
     "static/js/2.75d9e9ea.chunk.js.map": "/charit-it-react/static/js/2.75d9e9ea.chunk.js.map",
     "index.html": "/charit-it-react/index.html",
-    "precache-manifest.4a4bb3423ac04311db2db82dc076e26a.js": "/charit-it-react/precache-manifest.4a4bb3423ac04311db2db82dc076e26a.js",
+    "precache-manifest.32fa0da79448e16baf6950815756d235.js": "/charit-it-react/precache-manifest.32fa0da79448e16baf6950815756d235.js",
     "service-worker.js": "/charit-it-react/service-worker.js",
     "static/css/main.8e44f2d4.chunk.css.map": "/charit-it-react/static/css/main.8e44f2d4.chunk.css.map",
     "static/js/2.75d9e9ea.chunk.js.LICENSE": "/charit-it-react/static/js/2.75d9e9ea.chunk.js.LICENSE",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.2fea1fa9.js",
     "static/js/2.75d9e9ea.chunk.js",
     "static/css/main.8e44f2d4.chunk.css",
-    "static/js/main.9782ffb8.chunk.js"
+    "static/js/main.561e3a77.chunk.js"
   ]
 }

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/charit-it-react/precache-manifest.4a4bb3423ac04311db2db82dc076e26a.js"
+  "/charit-it-react/precache-manifest.32fa0da79448e16baf6950815756d235.js"
 );
 
 self.addEventListener('message', (event) => {
