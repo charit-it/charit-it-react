@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "17dd4ac7c91f8d5ad3eb2b48740ed29a",
+    "revision": "48afe21e6b1b94892805cb34f3dfc67f",
     "url": "/charit-it-react/index.html"
   },
   {
-    "revision": "dad24c20b4aa21aa69c9",
+    "revision": "fe978b1281caccabd4c0",
     "url": "/charit-it-react/static/css/main.8e44f2d4.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/charit-it-react/static/js/2.75d9e9ea.chunk.js.LICENSE"
   },
   {
-    "revision": "dad24c20b4aa21aa69c9",
-    "url": "/charit-it-react/static/js/main.9782ffb8.chunk.js"
+    "revision": "fe978b1281caccabd4c0",
+    "url": "/charit-it-react/static/js/main.7f2c7f42.chunk.js"
   },
   {
     "revision": "0d4c48081bf4e8e99e6e",
